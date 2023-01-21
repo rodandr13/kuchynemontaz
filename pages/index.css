@@ -4,3 +4,6 @@
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__contacts/header__contacts.css";
+@import "../blocks/header/__contacts-item/header__contacts-item.css";
+@import "../blocks/header/__contacts-link/header__contacts-link.css";
