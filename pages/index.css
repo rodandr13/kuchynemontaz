@@ -12,3 +12,8 @@
 @import "../blocks/header/__contacts-item/header__contacts-item.css";
 @import "../blocks/header/__contacts-link/header__contacts-link.css";
 @import "../blocks/header/__contacts-button/header__contacts-button.css";
+
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__list/menu__list.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
