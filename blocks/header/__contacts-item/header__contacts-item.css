@@ -1,3 +1,7 @@
 .header__contacts-item {
-  
+  margin: 0 20px 0 0;
+}
+
+.header__contacts-item:last-child {
+  margin: 0;
 }

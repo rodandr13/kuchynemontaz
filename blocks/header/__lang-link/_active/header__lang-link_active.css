@@ -1,0 +1,7 @@
+.header__lang-link_active {
+  border-radius: 50%;
+  padding: 10px;
+  color: #242222;
+  background: #ffffff;
+  cursor: default;
+}

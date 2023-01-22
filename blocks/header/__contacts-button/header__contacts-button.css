@@ -1,0 +1,9 @@
+.header__contacts-button {
+  background: #4a9400;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.55;
+  padding: 7px 60px;
+  cursor: pointer;
+}
