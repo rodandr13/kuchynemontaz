@@ -1,3 +1,21 @@
 .menu__btn {
-  
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  width: 28px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
