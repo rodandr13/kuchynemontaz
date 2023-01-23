@@ -1,0 +1,10 @@
+.intro__note {
+  position: absolute;
+  bottom: 30px;
+  max-width: 500px;
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
+}
