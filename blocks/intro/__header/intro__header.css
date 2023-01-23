@@ -9,3 +9,15 @@
   max-width: 900px;
   text-align: center;
 }
+
+@media screen and (max-width: 560px) {
+  .intro__header {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .intro__header {
+    font-size: 32px;
+  }
+}
