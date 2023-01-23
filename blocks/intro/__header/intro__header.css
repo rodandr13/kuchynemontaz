@@ -1,0 +1,11 @@
+.intro__header {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  font-size: 68px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #ffffff;
+  max-width: 900px;
+  text-align: center;
+}
