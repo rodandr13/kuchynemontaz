@@ -1,0 +1,23 @@
+.intro {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../images/intro/main-banner.jpg") no-repeat;
+  background-size: cover;
+  min-height: 775px;
+}
+
+.intro:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.7;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 1;
+}
