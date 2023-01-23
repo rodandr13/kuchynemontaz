@@ -6,4 +6,6 @@
   line-height: 1.55;
   padding: 7px 60px;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
