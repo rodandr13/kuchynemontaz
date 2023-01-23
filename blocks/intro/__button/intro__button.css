@@ -1,0 +1,19 @@
+.intro__button {
+  margin: 60px 0 0 0;
+  background: #f13535;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.55;
+  padding: 7px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+@media screen and (max-width: 380px) {
+ .intro__button {
+     margin: 30px 0 0 0;
+ }
+}
