@@ -1,8 +1,25 @@
 .benefits__item {
-  margin: 0 30px 0 0;
-  flex-basis: 25%;
+  margin: 50px 30px 0 0;
+  width: calc((100% - 60px) / 4);
 }
 
 .benefits__item:last-child {
-  margin: 0;
+  margin: 50px 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .benefits__item {
+    width: calc((100% - 60px) / 2);
+  }
+  .benefits__item:nth-child(2n) {
+      margin: 50px 0 0 0;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .benefits__item {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
 }
