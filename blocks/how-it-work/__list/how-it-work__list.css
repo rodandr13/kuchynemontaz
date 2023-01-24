@@ -1,3 +1,14 @@
 .how-it-work__list {
-  
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+	counter-reset: num;
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .how-it-work__list {
+    flex-direction: column;
+  }
 }
