@@ -44,3 +44,8 @@
 @import "../blocks/guarantee/__header/guarantee__header.css";
 @import "../blocks/guarantee/__list/guarantee__list.css";
 @import "../blocks/guarantee/__item/guarantee__item.css";
+
+@import "../blocks/how-it-work/how-it-work.css";
+@import "../blocks/how-it-work/__header/how-it-work__header.css";
+@import "../blocks/how-it-work/__list/how-it-work__list.css";
+@import "../blocks/how-it-work/__item/how-it-work__item.css";
