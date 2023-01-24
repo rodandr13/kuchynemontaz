@@ -37,3 +37,10 @@
 @import "../blocks/benefits/__image/benefits__image.css";
 @import "../blocks/benefits/__header/benefits__header.css";
 @import "../blocks/benefits/__subheader/benefits__subheader.css";
+
+@import "../blocks/guarantee/guarantee.css";
+@import "../blocks/guarantee/__image/guarantee__image.css";
+@import "../blocks/guarantee/__text-container/guarantee__text-container.css";
+@import "../blocks/guarantee/__header/guarantee__header.css";
+@import "../blocks/guarantee/__list/guarantee__list.css";
+@import "../blocks/guarantee/__item/guarantee__item.css";
