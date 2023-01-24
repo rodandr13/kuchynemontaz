@@ -1,3 +1,7 @@
 .benefits__header {
-  
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 400;
 }
