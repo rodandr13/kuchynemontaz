@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 380px) {
   .guarantee__header {
     font-size: 32px;
   }
