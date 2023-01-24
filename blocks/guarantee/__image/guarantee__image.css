@@ -1,0 +1,15 @@
+.guarantee__image {
+  display: block;
+  margin: 0 30px 0 0;
+  padding: 0;
+  width: 50%;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media screen and (max-width: 700px) {
+  .guarantee__image {
+    width: 100%;
+    margin: 0;
+  }
+}

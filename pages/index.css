@@ -30,3 +30,17 @@
 @import "../blocks/intro/__subheader/intro__subheader.css";
 @import "../blocks/intro/__button/intro__button.css";
 @import "../blocks/intro/__note/intro__note.css";
+
+@import "../blocks/benefits/benefits.css";
+@import "../blocks/benefits/__list/benefits__list.css";
+@import "../blocks/benefits/__item/benefits__item.css";
+@import "../blocks/benefits/__image/benefits__image.css";
+@import "../blocks/benefits/__header/benefits__header.css";
+@import "../blocks/benefits/__subheader/benefits__subheader.css";
+
+@import "../blocks/guarantee/guarantee.css";
+@import "../blocks/guarantee/__image/guarantee__image.css";
+@import "../blocks/guarantee/__text-container/guarantee__text-container.css";
+@import "../blocks/guarantee/__header/guarantee__header.css";
+@import "../blocks/guarantee/__list/guarantee__list.css";
+@import "../blocks/guarantee/__item/guarantee__item.css";

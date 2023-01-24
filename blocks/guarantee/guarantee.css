@@ -1,0 +1,11 @@
+.guarantee {
+  display: flex;
+  margin: 80px 0 0 0;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .guarantee {
+    flex-direction: column;
+  }
+}

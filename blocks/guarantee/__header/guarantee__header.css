@@ -1,0 +1,18 @@
+.guarantee__header {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #242222;
+}
+
+@media screen and (max-width: 700px) {
+  .guarantee__header {
+    margin: 40px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .guarantee__header {
+    font-size: 32px;
+  }
+}
