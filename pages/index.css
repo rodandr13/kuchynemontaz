@@ -49,3 +49,15 @@
 @import "../blocks/how-it-work/__header/how-it-work__header.css";
 @import "../blocks/how-it-work/__list/how-it-work__list.css";
 @import "../blocks/how-it-work/__item/how-it-work__item.css";
+
+@import "../blocks/about-price/about-price.css";
+@import "../blocks/about-price/__text-container/about-price__text-container.css";
+@import "../blocks/about-price/__header/about-price__header.css";
+@import "../blocks/about-price/__paragraph/about-price__paragraph.css";
+@import "../blocks/about-price/__list/about-price__list.css";
+@import "../blocks/about-price/__item/about-price__item.css";
+@import "../blocks/about-price/__button-container/about-price__button-container.css";
+@import "../blocks/about-price/__button-background/about-price__button-background.css";
+@import "../blocks/about-price/__button-header/about-price__button-header.css";
+@import "../blocks/about-price/__button-text/about-price__button-text.css";
+@import "../blocks/about-price/__button/about-price__button.css";
