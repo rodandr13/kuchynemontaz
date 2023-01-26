@@ -1,5 +1,7 @@
 .about-price__button-container {
-  width: 840px;
+  position: relative;
+  width: 50%;
   min-height: 660px;
-  background: url("../../../images/about-price/about-price-bg.png") no-repeat;
+  background: url("../../../images/about-price/about-price-bg.png") no-repeat center;
+  background-size: cover;
 }
