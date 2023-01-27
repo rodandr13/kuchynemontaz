@@ -72,3 +72,5 @@
 @import "../blocks/options/__image/option__image.css";
 @import "../blocks/options/__button/option__button.css";
 @import "../blocks/options/__information/option__information.css";
+@import "../blocks/options/__information/_type/option__information_type_warning.css";
+@import "../blocks/options/__information/_type/option__information_type_attention.css";

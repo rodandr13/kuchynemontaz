@@ -1,3 +1,24 @@
 .options__item {
-  
+  position: relative;
+  width: 33.3%;
+}
+.options__item::after {
+  position: absolute;
+  top: -5px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #c00000;
+}
+
+.options__item:nth-child(1)::after {
+  content: "1.";
+}
+
+.options__item:nth-child(2)::after {
+  content: "2a.";
+  left: 0;
+}
+
+.options__item:nth-child(3)::after {
+  content: "2b.";
 }
