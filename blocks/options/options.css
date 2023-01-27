@@ -1,0 +1,8 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
