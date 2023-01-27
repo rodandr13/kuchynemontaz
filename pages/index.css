@@ -82,3 +82,11 @@
 @import "../blocks/examples/__header/examples__header.css";
 @import "../blocks/examples/__subheader/examples__subheader.css";
 @import "../blocks/examples/__list/examples__list.css";
+
+@import "../blocks/example/example.css";
+@import "../blocks/example/__logo/example__logo.css";
+@import "../blocks/example/__price-container/example__price-container.css";
+@import "../blocks/example/__price-header/example__price-header.css";
+@import "../blocks/example/__price-value/example__price-value.css";
+@import "../blocks/example/__production-time/example__production-time.css";
+@import "../blocks/example/__image/example__image.css";
