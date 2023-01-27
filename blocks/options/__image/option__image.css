@@ -3,3 +3,16 @@
   margin: 40px 0 0 0;
   width: 100%;
 }
+
+@media screen and (max-width: 950px) {
+  .option__image {
+    width: 75%;
+    margin: 40px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .option__image {
+    width: 100%;
+  }
+}
