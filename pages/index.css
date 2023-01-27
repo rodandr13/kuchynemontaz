@@ -77,3 +77,17 @@
 @import "../blocks/options/__information/option__information.css";
 @import "../blocks/options/__information/_type/option__information_type_warning.css";
 @import "../blocks/options/__information/_type/option__information_type_attention.css";
+
+@import "../blocks/examples/examples.css";
+@import "../blocks/examples/__header/examples__header.css";
+@import "../blocks/examples/__subheader/examples__subheader.css";
+@import "../blocks/examples/__list/examples__list.css";
+
+@import "../blocks/example/example.css";
+@import "../blocks/example/__logo/example__logo.css";
+@import "../blocks/example/__price-container/example__price-container.css";
+@import "../blocks/example/__price-header/example__price-header.css";
+@import "../blocks/example/__price-value/example__price-value.css";
+@import "../blocks/example/__production-time/example__production-time.css";
+@import "../blocks/example/__image/example__image.css";
+@import "../blocks/example/__button/example__button.css";

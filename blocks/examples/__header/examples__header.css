@@ -1,0 +1,12 @@
+.examples__header {
+  text-align: center;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 380px) {
+  .examples__header {
+    font-size: 32px;
+  }
+}

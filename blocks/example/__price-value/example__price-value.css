@@ -1,0 +1,13 @@
+.example__price-value {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 450px) {
+  .example__price-value {
+    font-size: 20px;
+  }
+}
