@@ -61,3 +61,14 @@
 @import "../blocks/about-price/__button-header/about-price__button-header.css";
 @import "../blocks/about-price/__button-text/about-price__button-text.css";
 @import "../blocks/about-price/__button/about-price__button.css";
+
+@import "../blocks/options/options.css";
+@import "../blocks/options/__header/options__header.css";
+@import "../blocks/options/__subheader/options__subheader.css";
+@import "../blocks/options/__list/options__list.css";
+@import "../blocks/options/__item/options__item.css";
+@import "../blocks/options/__item-header/options__item-header.css";
+@import "../blocks/options/__item-text/option__item-text.css";
+@import "../blocks/options/__image/option__image.css";
+@import "../blocks/options/__button/option__button.css";
+@import "../blocks/options/__information/option__information.css";
