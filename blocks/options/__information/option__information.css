@@ -6,3 +6,9 @@
   color: #636363;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 950px) {
+  .option__information {
+      margin: 40px 0 40px 80px;
+  }
+}

@@ -2,6 +2,7 @@
   position: relative;
   width: 33.3%;
 }
+
 .options__item::after {
   position: absolute;
   top: -5px;
@@ -21,4 +22,10 @@
 
 .options__item:nth-child(3)::after {
   content: "2b.";
+}
+
+@media screen and (max-width: 950px) {
+  .options__item {
+    width: 100%;
+  }
 }
