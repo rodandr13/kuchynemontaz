@@ -6,6 +6,9 @@
 
 @import "../blocks/background-container/background-container.css";
 
+@import "../blocks/button/button.css";
+@import "../blocks/button/_style/button_style_red.css";
+
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__contacts/header__contacts.css";
