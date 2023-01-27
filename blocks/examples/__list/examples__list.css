@@ -2,6 +2,26 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 40px 20px;
   margin: 40px 0 0 0;
+  padding: 0;
   list-style-type: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .examples__list {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .examples__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .examples__list {
+    gap: 20px;
+  }
 }
