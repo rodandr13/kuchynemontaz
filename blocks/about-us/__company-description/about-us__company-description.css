@@ -1,3 +1,7 @@
 .about-us__company-description {
-  
+  max-width: 800px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.4;
 }

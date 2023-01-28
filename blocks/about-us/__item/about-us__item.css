@@ -1,3 +1,43 @@
 .about-us__item {
+  position: relative;
+  font-size: 18px;
+  color: #636363;
+  line-height: 1.4;
+  padding: 0 0 0 85px;
+  width: 33.3%;
+  min-height: 60px;
+  box-sizing: border-box;
+}
 
+.about-us__item:nth-child(1)::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: url("../../../images/about-us/coins.png") no-repeat;
+  width: 80px;
+  height: 100%;
+  background-size: contain;
+}
+
+.about-us__item:nth-child(2)::before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "";
+  background: url("../../../images/about-us/sheild.png") no-repeat;
+  width: 60px;
+  height: 100%;
+  background-size: contain;
+}
+
+.about-us__item:nth-child(3)::before {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: "";
+  background: url("../../../images/about-us/money.png") no-repeat;
+  width: 60px;
+  height: 100%;
+  background-size: contain;
 }

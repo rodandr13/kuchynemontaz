@@ -94,6 +94,7 @@
 
 @import "../blocks/about-us/about-us.css";
 @import "../blocks/about-us/__header/about-us__header.css";
+@import "../blocks/about-us/__text-container/about-us__text-container.css";
 @import "../blocks/about-us/__company-name/about-us__company-name.css";
 @import "../blocks/about-us/__company-description/about-us__company-description.css";
 @import "../blocks/about-us/__list/about-us__list.css";
