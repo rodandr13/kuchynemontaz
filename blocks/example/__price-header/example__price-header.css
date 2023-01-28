@@ -5,3 +5,9 @@
   font-weight: 400;
   color: #ffffff;
 }
+
+@media screen and (max-width: 450px) {
+  .example__price-header {
+    line-height: 1;
+  }
+}
