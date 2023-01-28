@@ -23,3 +23,9 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 450px) {
+    .about-price__button-container {
+          padding: 0 15px 0 15px;
+    }
+}

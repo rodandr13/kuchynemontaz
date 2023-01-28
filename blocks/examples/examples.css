@@ -9,6 +9,6 @@
 
 @media screen and (max-width: 450px) {
   .examples {
-   padding: 0 15px;
+   padding: 0 15px 40px 15px;
   }
 }

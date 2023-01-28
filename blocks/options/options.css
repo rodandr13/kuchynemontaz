@@ -6,3 +6,9 @@
   margin: 0 auto;
   padding: 80px 30px 60px 30px;
 }
+
+@media screen and (max-width: 450px) {
+  .options {
+      padding: 80px 15px 60px 15px;
+  }
+}
