@@ -98,3 +98,11 @@
 @import "../blocks/about-us/__company-description/about-us__company-description.css";
 @import "../blocks/about-us/__list/about-us__list.css";
 @import "../blocks/about-us/__item/about-us__item.css";
+
+@import "../blocks/speech/speech.css";
+@import "../blocks/speech/__quote/speech__quote.css";
+@import "../blocks/speech/__text/speech__text.css";
+@import "../blocks/speech/__paragraph/speech__paragraph.css";
+@import "../blocks/speech/__author-position/speech__author-position.css";
+@import "../blocks/speech/__author-name/speech__author-name.css";
+@import "../blocks/speech/__image/speech__image.css";
