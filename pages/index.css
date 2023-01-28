@@ -91,3 +91,10 @@
 @import "../blocks/example/__production-time/example__production-time.css";
 @import "../blocks/example/__image/example__image.css";
 @import "../blocks/example/__button/example__button.css";
+
+@import "../blocks/about-us/about-us.css";
+@import "../blocks/about-us/__header/about-us__header.css";
+@import "../blocks/about-us/__company-name/about-us__company-name.css";
+@import "../blocks/about-us/__company-description/about-us__company-description.css";
+@import "../blocks/about-us/__list/about-us__list.css";
+@import "../blocks/about-us/__item/about-us__item.css";
