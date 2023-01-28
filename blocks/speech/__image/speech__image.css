@@ -1,3 +1,5 @@
 .speech__image {
-
+  max-width: 460px;
+  object-fit: cover;
+  border-radius: 10px;
 }

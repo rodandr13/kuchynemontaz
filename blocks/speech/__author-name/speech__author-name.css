@@ -1,3 +1,5 @@
 .speech__author-name {
-  
+  display: block;
+  font-size: 28px;
+  color: #2d2d2d;
 }

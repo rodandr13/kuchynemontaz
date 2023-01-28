@@ -104,6 +104,7 @@
 @import "../blocks/speech/__quote/speech__quote.css";
 @import "../blocks/speech/__text/speech__text.css";
 @import "../blocks/speech/__paragraph/speech__paragraph.css";
+@import "../blocks/speech/__author/speech__author.css";
 @import "../blocks/speech/__author-position/speech__author-position.css";
 @import "../blocks/speech/__author-name/speech__author-name.css";
 @import "../blocks/speech/__image/speech__image.css";
