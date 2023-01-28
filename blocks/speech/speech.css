@@ -2,3 +2,9 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 760px) {
+  .speech {
+    flex-direction: column;
+  }
+}
