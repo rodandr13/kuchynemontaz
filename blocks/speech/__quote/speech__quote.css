@@ -1,0 +1,38 @@
+.speech__quote {
+  box-sizing: border-box;
+  max-width: 660px;
+  position: relative;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.speech__quote::before {
+  content: "“";
+  position: absolute;
+  top: -50px;
+  left: -70px;
+  font-size: 200px;
+  opacity: .3;
+}
+
+.speech__quote::after {
+  content: "”";
+  position: absolute;
+  bottom: -165px;
+  right: -60px;
+  font-size: 200px;
+  opacity: .3;
+}
+
+@media screen and (max-width: 500px) {
+  .speech__quote::before {
+    top: -25px;
+    left: -45px;
+    font-size: 100px;
+  }
+  .speech__quote::after {
+    font-size: 100px;
+    bottom: -90px;
+    right: -35px;
+  }
+}

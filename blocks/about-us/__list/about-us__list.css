@@ -1,0 +1,13 @@
+.about-us__list {
+  display: flex;
+  gap: 30px;
+  margin: 60px 0 60px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 850px) {
+  .about-us__list {
+    flex-direction: column;
+  }
+}
