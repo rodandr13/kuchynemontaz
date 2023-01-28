@@ -41,3 +41,10 @@
   height: 100%;
   background-size: contain;
 }
+
+
+@media screen and (max-width: 850px) {
+  .about-us__item {
+    width: 100%;
+  }
+}

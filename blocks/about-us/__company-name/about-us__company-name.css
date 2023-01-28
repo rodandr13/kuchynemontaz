@@ -16,3 +16,9 @@
   background: #272727;
 
 }
+
+@media screen and (max-width: 600px) {
+  .about-us__company-name::after {
+    display: none;
+  }
+}

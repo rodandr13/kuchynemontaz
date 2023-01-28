@@ -5,3 +5,9 @@
   padding: 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 850px) {
+  .about-us__list {
+    flex-direction: column;
+  }
+}
