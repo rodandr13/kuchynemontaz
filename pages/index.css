@@ -108,3 +108,10 @@
 @import "../blocks/speech/__author-position/speech__author-position.css";
 @import "../blocks/speech/__author-name/speech__author-name.css";
 @import "../blocks/speech/__image/speech__image.css";
+
+@import "../blocks/certificates/certificates.css";
+@import "../blocks/certificates/__header/certificates__header.css";
+@import "../blocks/certificates/__grid/certificates__grid.css";
+@import "../blocks/certificates/__item/certificates__item.css";
+@import "../blocks/certificates/__link/certificates__link.css";
+@import "../blocks/certificates/__image/certificates__image.css";
