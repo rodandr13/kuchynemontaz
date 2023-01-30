@@ -124,3 +124,5 @@
 @import "../blocks/question/__answer/question__answer.css";
 @import "../blocks/question/__paragraph/question__paragraph.css";
 
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__paragraph/footer__paragraph.css";
