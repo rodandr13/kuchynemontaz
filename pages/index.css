@@ -115,3 +115,12 @@
 @import "../blocks/certificates/__item/certificates__item.css";
 @import "../blocks/certificates/__link/certificates__link.css";
 @import "../blocks/certificates/__image/certificates__image.css";
+
+@import "../blocks/questions/questions.css";
+@import "../blocks/questions/__list/questions__list.css";
+
+@import "../blocks/question/question.css";
+@import "../blocks/question/__header/question__header.css";
+@import "../blocks/question/__answer/question__answer.css";
+@import "../blocks/question/__paragraph/question__paragraph.css";
+
