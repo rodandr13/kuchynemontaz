@@ -125,4 +125,7 @@
 @import "../blocks/question/__paragraph/question__paragraph.css";
 
 @import "../blocks/footer/footer.css";
+@import "../blocks/footer/__list/footer__list.css";
+@import "../blocks/footer/__item/footer__item.css";
+@import "../blocks/footer/__email/footer__email.css";
 @import "../blocks/footer/__paragraph/footer__paragraph.css";
