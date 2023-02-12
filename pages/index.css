@@ -136,7 +136,9 @@
 @import "../blocks/popup/_opened/popup_opened.css";
 @import "../blocks/popup/__container/popup__container.css";
 @import "../blocks/popup/__header/popup__header.css";
+@import "../blocks/popup/__subheader/popup__subheader.css";
 @import "../blocks/popup/__form/popup__form.css";
+@import "../blocks/popup/__text/popup__text.css";
 @import "../blocks/popup/__close-button/popup__close-button.css";
 
 @import "../blocks/form/form.css";
