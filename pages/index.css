@@ -129,3 +129,10 @@
 @import "../blocks/footer/__item/footer__item.css";
 @import "../blocks/footer/__email/footer__email.css";
 @import "../blocks/footer/__paragraph/footer__paragraph.css";
+
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/_opened/popup_opened.css";
+@import "../blocks/popup/__container/popup__container.css";
+@import "../blocks/popup/__header/popup__header.css";
+@import "../blocks/popup/__form/popup__form.css";
+@import "../blocks/popup/__close-button/popup__close-button.css";
