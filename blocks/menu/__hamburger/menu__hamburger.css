@@ -4,6 +4,7 @@
   width: 100%;
   height: 2px;
   background-color: #ffffff;
+  transition-duration: .25s;
 }
 
 .menu__hamburger:before {
@@ -14,6 +15,7 @@
   background-color: #ffffff;
   content: '';
   top: -10px;
+  transition-duration: .25s;
 }
 
 .menu__hamburger:after {
@@ -24,4 +26,5 @@
   background-color: #ffffff;
   content: '';
   top: 10px;
+  transition-duration: .25s;
 }
