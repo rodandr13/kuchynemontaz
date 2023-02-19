@@ -7,6 +7,26 @@
 
 @media screen and (max-width: 1100px) {
   .menu__list {
-    display: none;
+    box-sizing: border-box;
+    position: fixed;
+    visibility: hidden;
+    flex-direction: column;
+    background: #000000;
+    z-index: 2;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+    opacity: 0.95;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu__list {
+    max-width: 100%;
+    align-items: center;
   }
 }
