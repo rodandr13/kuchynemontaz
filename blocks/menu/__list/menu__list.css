@@ -23,3 +23,10 @@
     opacity: 0.95;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .menu__list {
+    max-width: 100%;
+    align-items: center;
+  }
+}
