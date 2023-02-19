@@ -26,10 +26,15 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    right: 0;
     max-width: 600px;
-    background:#272727;
+    background: #272727;
     z-index: 2;
-    padding: 30px;
+    transition-duration: .25s;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
   }
 }

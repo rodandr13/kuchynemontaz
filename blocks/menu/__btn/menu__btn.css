@@ -9,7 +9,6 @@
   width: 28px;
   height: 26px;
   cursor: pointer;
-  z-index: 1;
 }
 
 @media screen and (max-width: 1100px) {
@@ -17,5 +16,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    z-index: 3;
   }
 }
