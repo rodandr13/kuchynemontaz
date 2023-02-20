@@ -133,6 +133,11 @@
 @import "../blocks/footer/__email/footer__email.css";
 @import "../blocks/footer/__paragraph/footer__paragraph.css";
 
+@import "../blocks/contacts/contacts.css";
+@import "../blocks/contacts/__item/contacts__item.css";
+@import "../blocks/contacts/__email/contacts__email.css";
+@import "../blocks/contacts/__paragraph/contacts__paragraph.css";
+
 @import "../blocks/popup/popup.css";
 @import "../blocks/popup/_opened/popup_opened.css";
 @import "../blocks/popup/__container/popup__container.css";
