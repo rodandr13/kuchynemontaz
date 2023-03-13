@@ -18,10 +18,11 @@
 @import "../blocks/header/__contacts-item/header__contacts-item.css";
 @import "../blocks/header/__contacts-link/header__contacts-link.css";
 @import "../blocks/header/__contacts-button/header__contacts-button.css";
-@import "../blocks/header/__lang/header__lang.css";
-@import "../blocks/header/__lang-item/header__lang-item.css";
-@import "../blocks/header/__lang-link/header__lang-link.css";
-@import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
+
+@import "../blocks/lang-switcher/lang-switcher.css";
+@import "../blocks/lang-switcher/__item/lang-switcher__item.css";
+@import "../blocks/lang-switcher/__link/lang-switcher__link.css";
+@import "../blocks/lang-switcher/__link/_active/lang-switcher__link_active.css";
 
 @import "../blocks/menu/menu.css";
 @import "../blocks/menu/__list/menu__list.css";
