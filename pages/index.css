@@ -123,6 +123,7 @@
 
 @import "../blocks/question/question.css";
 @import "../blocks/question/__header/question__header.css";
+@import "../blocks/question/__toggle-icon/question__toggle-icon.css";
 @import "../blocks/question/__answer/question__answer.css";
 @import "../blocks/question/__paragraph/question__paragraph.css";
 

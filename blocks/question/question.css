@@ -1,7 +1,20 @@
 .question {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px 0;
   list-style-type: none;
-  border-top: 1px solid #c7c7c7;
+  border-top: 1px solid #eeeeee;
+  cursor: pointer;
+}
+
+.question:hover > .question__toggle-icon {
+  background: #eeeeee;
+  transition: background 0.2s ease-in;
+}
+
+.question:hover > .question__answer {
+  max-height: 500px;
+  transition: all 0.5s ease-in
 }

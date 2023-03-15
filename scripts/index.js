@@ -1,6 +1,6 @@
 let popup = document.querySelector('.popup');
 let popupCloseBtn = document.querySelector('.popup__close-button');
-let contactFormBtn = document.querySelectorAll('.button_type_contact');
+let contactFormBtn = document.querySelectorAll('.button');
 
 const langSwitcher = document.querySelector('.lang-switcher');
 
