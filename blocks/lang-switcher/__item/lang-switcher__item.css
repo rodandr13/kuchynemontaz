@@ -1,7 +1,7 @@
 .lang-switcher__item {
-  margin: 0 10px 0 0;
-}
-
-.lang-switcher__item:last-child {
+  display: block;
+  font-size: 18px;
+  color: #2d2d2d;
   margin: 0;
+  padding: 15px;
 }

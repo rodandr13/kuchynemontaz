@@ -22,7 +22,6 @@
 @import "../blocks/lang-switcher/lang-switcher.css";
 @import "../blocks/lang-switcher/__item/lang-switcher__item.css";
 @import "../blocks/lang-switcher/__link/lang-switcher__link.css";
-@import "../blocks/lang-switcher/__link/_active/lang-switcher__link_active.css";
 
 @import "../blocks/menu/menu.css";
 @import "../blocks/menu/__list/menu__list.css";
