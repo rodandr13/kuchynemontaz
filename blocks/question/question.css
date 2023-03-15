@@ -11,10 +11,11 @@
 
 .question:hover > .question__toggle-icon {
   background: #eeeeee;
-  transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in, transform 0.2s ease-in-out;
+  transform: rotate(45deg);
 }
 
 .question:hover > .question__answer {
   max-height: 500px;
-  transition: all 0.5s ease-in
+  transition: all 0.3s ease-in
 }

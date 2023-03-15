@@ -2,6 +2,6 @@
   cursor: pointer;
   border-radius: 30px;
   padding: 8px;
-  transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
