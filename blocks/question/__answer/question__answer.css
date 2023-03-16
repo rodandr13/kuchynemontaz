@@ -7,5 +7,5 @@
   display: block;
   overflow: hidden;
   max-height: 0;
-  transition: all 0.3s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
