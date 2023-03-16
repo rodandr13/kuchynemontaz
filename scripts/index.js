@@ -1,6 +1,6 @@
-let popup = document.querySelector('.popup');
-let popupCloseBtn = document.querySelector('.popup__close-button');
-let contactFormBtn = document.querySelectorAll('.button');
+let popupSendRequest = document.querySelector('.popup_type_send-request');
+let closeButtons = document.querySelectorAll('.popup__close-button');
+const popupFormButton = document.querySelectorAll('.button_style_contact');
 const questionElements = document.querySelectorAll('.question');
 const popupImage = document.querySelector('.popup_type_image');
 const certificateElements = document.querySelectorAll('.certificates__link');
@@ -26,16 +26,18 @@ questionElements.forEach((question) => {
 });
 
 function popupOpen() {
-  popup.classList.add('popup_opened');
+  popupSendRequest.classList.add('popup_opened');
 }
 
-function popupClose() {
-  popup.classList.remove('popup_opened');
-}
+const popupClose = (popup) => popup.classList.remove('popup_opened');
 
-contactFormBtn.forEach(function (btn) {
-  btn.addEventListener('click', popupOpen);
+popupFormButton.forEach(function (button) {
+  button.addEventListener('click', popupOpen);
 })
-
-popupCloseBtn.addEventListener('click', popupClose);
+closeButtons.forEach((button) => {
+  const popup = button.closest('.popup')
+  button.addEventListener('click', () => {
+    popupClose(popup);
+  })
+});
 
