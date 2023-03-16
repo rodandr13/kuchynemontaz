@@ -1,0 +1,4 @@
+.question__answer_opened {
+  max-height: 300px;
+  transition: max-height 0.3s ease-in
+}

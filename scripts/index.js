@@ -1,8 +1,14 @@
 let popup = document.querySelector('.popup');
 let popupCloseBtn = document.querySelector('.popup__close-button');
 let contactFormBtn = document.querySelectorAll('.button');
+const questionElements = document.querySelectorAll('.question');
 
-const langSwitcher = document.querySelector('.lang-switcher');
+questionElements.forEach((question) => {
+  question.addEventListener('click', (evt) => {
+    question.querySelector('.question__answer').classList.toggle('question__answer_opened');
+    question.querySelector('.question__toggle-icon').classList.toggle('question__toggle-icon_opened');
+  })
+})
 
 function popupOpen() {
   popup.classList.add('popup_opened');

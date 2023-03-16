@@ -1,0 +1,4 @@
+.question__toggle-icon_opened {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(45deg);
+}

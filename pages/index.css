@@ -124,7 +124,9 @@
 @import "../blocks/question/question.css";
 @import "../blocks/question/__header/question__header.css";
 @import "../blocks/question/__toggle-icon/question__toggle-icon.css";
+@import "../blocks/question/__toggle-icon/_opened/question__toggle-icon_opened.css";
 @import "../blocks/question/__answer/question__answer.css";
+@import "../blocks/question/__answer/_opened/question__answer_opened.css";
 @import "../blocks/question/__paragraph/question__paragraph.css";
 
 @import "../blocks/footer/footer.css";
