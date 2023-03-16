@@ -148,6 +148,8 @@
 @import "../blocks/popup/__form/popup__form.css";
 @import "../blocks/popup/__text/popup__text.css";
 @import "../blocks/popup/__close-button/popup__close-button.css";
+@import "../blocks/popup/__image-container/popup__image-container.css";
+@import "../blocks/popup/__image/popup__image.css";
 
 @import "../blocks/form/form.css";
 @import "../blocks/form/__input/form__input.css";
