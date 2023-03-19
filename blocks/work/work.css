@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .work::after {
@@ -15,7 +16,6 @@
   left: 0;
   content: " ";
   background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
   transition: background 0.4s;
 }
 
@@ -24,7 +24,7 @@
   transition: background 0.4s;
 }
 
-.work:hover > .work__image {
+.work:hover > .work__link > .work__image {
   transform: scale(120%) rotate(-5deg);
   transition: transform 0.4s;
 }

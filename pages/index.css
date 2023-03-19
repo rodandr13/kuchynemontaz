@@ -107,6 +107,7 @@
 @import "../blocks/our-works/__grid/our-works__grid.css";
 
 @import "../blocks/work/work.css";
+@import "../blocks/work/__link/work__link.css";
 @import "../blocks/work/__image/work__image.css";
 
 @import "../blocks/speech/speech.css";
