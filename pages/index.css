@@ -102,6 +102,13 @@
 @import "../blocks/about-us/__list/about-us__list.css";
 @import "../blocks/about-us/__item/about-us__item.css";
 
+@import "../blocks/our-works/our-works.css";
+@import "../blocks/our-works/__header/our-works__header.css";
+@import "../blocks/our-works/__grid/our-works__grid.css";
+
+@import "../blocks/work/work.css";
+@import "../blocks/work/__image/work__image.css";
+
 @import "../blocks/speech/speech.css";
 @import "../blocks/speech/__quote/speech__quote.css";
 @import "../blocks/speech/__text/speech__text.css";
