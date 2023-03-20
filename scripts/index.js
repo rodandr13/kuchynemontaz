@@ -1,5 +1,5 @@
-let popupSendRequest = document.querySelector('.popup_type_send-request');
-let closeButtons = document.querySelectorAll('.popup__close-button');
+const popupSendRequest = document.querySelector('.popup_type_send-request');
+const closeButtons = document.querySelectorAll('.popup__close-button');
 
 const popupList = document.querySelectorAll('.popup');
 const popupFormButton = document.querySelectorAll('.button_style_contact');
@@ -12,6 +12,34 @@ const workElements = document.querySelectorAll('.work');
 const openImagePopup = (src) => {
   popupImage.querySelector('.popup__image').src = src;
   popupImage.classList.add('popup_opened');
+}
+
+const handlerKeyDown = (evt) => {
+  if (evt.key === 'Escape') {
+    const popup = document.querySelector('.popup_opened');
+    closePopup(popup);
+  }
+}
+
+const openPopup = (popup) => {
+  document.addEventListener('keydown', handlerKeyDown);
+  popup.classList.add('popup_opened');
+}
+
+const closePopup = (popup) => {
+  document.removeEventListener('keydown', handlerKeyDown);
+  popup.classList.remove('popup_opened');
+}
+
+const openPopupAddCard = () => {
+  popupSendRequest.querySelector('form').reset();
+  openPopup(popupSendRequest);
+}
+
+const closePopupOverlayClick = (evt) => {
+  if (evt.target.classList.contains('popup')) {
+    closePopup(evt.target);
+  }
 }
 
 workElements.forEach((work) => {
@@ -35,34 +63,6 @@ questionElements.forEach((question) => {
     question.querySelector('.question__toggle-icon').classList.toggle('question__toggle-icon_opened');
   });
 });
-
-const handlerKeyDown = (evt) => {
-  if (evt.key === 'Escape') {
-    const popup = document.querySelector('.popup_opened');
-    closePopup(popup);
-  }
-}
-
-function openPopup(popup) {
-  document.addEventListener('keydown', handlerKeyDown);
-  popup.classList.add('popup_opened');
-}
-
-const closePopup = (popup) => {
-  document.removeEventListener('keydown', handlerKeyDown);
-  popup.classList.remove('popup_opened');
-}
-
-const openPopupAddCard = () => {
-  popupSendRequest.querySelector('form').reset();
-  openPopup(popupSendRequest);
-}
-
-const closePopupOverlayClick = (evt) => {
-  if (evt.target.classList.contains('popup')) {
-    closePopup(evt.target);
-  }
-}
 
 popupFormButton.forEach(function (button) {
   button.addEventListener('click', openPopupAddCard);
