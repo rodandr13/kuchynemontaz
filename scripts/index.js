@@ -2,11 +2,12 @@ const popupSendRequest = document.querySelector('.popup_type_send-request');
 const closeButtons = document.querySelectorAll('.popup__close-button');
 
 const popupList = document.querySelectorAll('.popup');
-const popupFormButton = document.querySelectorAll('.button_style_contact');
+const popupFormButton = document.querySelectorAll('.button_type_request');
 const questionElements = document.querySelectorAll('.question');
 const popupImage = document.querySelector('.popup_type_image');
 const certificateElements = document.querySelectorAll('.certificates__link');
 const workElements = document.querySelectorAll('.work');
+const optionButtonsList = document.querySelectorAll('.option__button');
 
 
 const openImagePopup = (src) => {
@@ -42,6 +43,15 @@ const closePopupOverlayClick = (evt) => {
   }
 }
 
+const openPopupOption = (evt) => {
+  const data = evt.target.getAttribute('data-stage');
+  openImagePopup(`./images/options/price-${data}.jpg`);
+}
+
+optionButtonsList.forEach((button) => {
+  button.addEventListener('click', openPopupOption);
+})
+
 workElements.forEach((work) => {
   work.addEventListener('click', (evt) => {
     const srcImage = evt.currentTarget.querySelector('.work__image').src;
@@ -58,7 +68,7 @@ certificateElements.forEach((certificate) => {
 });
 
 questionElements.forEach((question) => {
-  question.addEventListener('click', (evt) => {
+  question.addEventListener('click', () => {
     question.querySelector('.question__answer').classList.toggle('question__answer_opened');
     question.querySelector('.question__toggle-icon').classList.toggle('question__toggle-icon_opened');
   });
