@@ -488,15 +488,31 @@
   <div class="popup__container">
     <h2 class="popup__header">Žádost o cenovou nabídku</h2>
     <p class="popup__subheader">Zanechte nám na Vás kontakt a náš pracovník se s Vámi spojí kvůli upřesnění podrobností.</p>
-    <form action="#" class="form popup__form" name="request-form">
-      <input type="text" class="form__input form__input_type_telephone" name="request-telephone" placeholder="Telefon">
-      <input type="text" class="form__input form__input_type_name" name="request-name" placeholder="Jméno">
+    <form action="#" class="form popup__form" name="request-form" novalidate>
+      <input
+        type="tel"
+        class="form__input form__input_type_telephone"
+        name="request-telephone" placeholder="Telefon"
+        minlength="9"
+        maxlength="12"
+        required
+      >
+      <input
+        type="text"
+        class="form__input form__input_type_name"
+        name="request-name"
+        placeholder="Jméno"
+        minlength="2"
+        maxlength="24"
+        required
+      >
       <button type="submit" class="form__button">Odeslat</button>
     </form>
     <button type="button" class="popup__close-button" aria-label="Zavřít"></button>
     <p class="popup__text">Stisknutím tlačítka „Odeslat" souhlasíte s pravidly zpracování osobních údajů.</p>
   </div>
 </div>
+<script src="./scripts/validation.js"></script>
 <script src="./scripts/index.js"></script>
 </body>
 </html>
