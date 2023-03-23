@@ -9,13 +9,22 @@ const certificateElements = document.querySelectorAll('.certificates__link');
 const workElements = document.querySelectorAll('.work');
 const optionButtonsList = document.querySelectorAll('.option__button');
 
+const formSendRequest = document.querySelector('.form_type_send-request');
+
+const handleSendRequest = (evt) => {
+  evt.preventDefault();
+  closePopup(popupSendRequest);
+}
+
+formSendRequest.addEventListener('submit', handleSendRequest);
 
 const openImagePopup = (src) => {
+  document.addEventListener('keydown', handleKeyDown);
   popupImage.querySelector('.popup__image').src = src;
   popupImage.classList.add('popup_opened');
 }
 
-const handlerKeyDown = (evt) => {
+const handleKeyDown = (evt) => {
   if (evt.key === 'Escape') {
     const popup = document.querySelector('.popup_opened');
     closePopup(popup);
@@ -23,16 +32,16 @@ const handlerKeyDown = (evt) => {
 }
 
 const openPopup = (popup) => {
-  document.addEventListener('keydown', handlerKeyDown);
+  document.addEventListener('keydown', handleKeyDown);
   popup.classList.add('popup_opened');
 }
 
 const closePopup = (popup) => {
-  document.removeEventListener('keydown', handlerKeyDown);
+  document.removeEventListener('keydown', handleKeyDown);
   popup.classList.remove('popup_opened');
 }
 
-const openPopupAddCard = () => {
+const openPopupSendRequest = () => {
   popupSendRequest.querySelector('form').reset();
   openPopup(popupSendRequest);
 }
@@ -75,7 +84,7 @@ questionElements.forEach((question) => {
 });
 
 popupFormButton.forEach(function (button) {
-  button.addEventListener('click', openPopupAddCard);
+  button.addEventListener('click', openPopupSendRequest);
 })
 closeButtons.forEach((button) => {
   const popup = button.closest('.popup')
