@@ -1,3 +1,5 @@
+import '../pages/index.css';
+
 const popupSendRequest = document.querySelector('.popup_type_send-request');
 const closeButtons = document.querySelectorAll('.popup__close-button');
 
