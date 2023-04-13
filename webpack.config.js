@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js',
+    filename: './scripts/main.js',
     publicPath: '',
   },
   mode: 'development',
@@ -29,14 +29,14 @@ module.exports = {
         test: /\.(png|svg|jpg|gif)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'images/[name].[ext]',
+          filename: './images/[name].[ext]',
         }
       },
       {
         test: /\.(woff(2)?|eot|ttf|otf)$/,
         type: 'asset/resource',
         generator: {
-          filename: 'fonts/[name].[ext]',
+          filename: './fonts/[name].[ext]',
         }
       },
       {
