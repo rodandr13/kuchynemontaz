@@ -11,7 +11,7 @@
   <div class="background-container">
     <header class="header">
       <a href="#">
-        <img class="header__logo" src="./images/header/logo.JPG" alt="Logo"></a>
+        <img class="header__logo" src="<%=require('./images/header/logo.jpg')%>" alt="Logo"></a>
       <ul class="header__contacts">
         <li class="header__contacts-item">
           <a href="#" class="header__contacts-link">+420 776 787 148</a></li>
@@ -52,29 +52,29 @@
     <section class="benefits">
       <ul class="benefits__list">
         <li class="benefits__item">
-          <img src="./images/benefits/car.png" alt="" class="benefits__image">
+          <img src="<%=require('./images/benefits/car.png')%>" alt="" class="benefits__image">
           <h3 class="benefits__header">Operativně a kvalitně</h3>
           <p class="benefits__subheader">Všechny práce provádíme kvalitně a v optimálním termínu.</p>
         </li>
         <li class="benefits__item">
-          <img src="./images/benefits/guarantee.png" alt="" class="benefits__image">
+          <img src="<%=require('./images/benefits/guarantee.png')%>" alt="" class="benefits__image">
           <h3 class="benefits__header">Záruka na všechny práce</h3>
           <p class="benefits__subheader">Máme finanční odpovědnost a dáváme záruku na provedené práce.</p>
         </li>
         <li class="benefits__item">
-          <img src="./images/benefits/cleanliness.png" alt="" class="benefits__image">
+          <img src="<%=require('./images/benefits/cleanliness.png')%>" alt="" class="benefits__image">
           <h3 class="benefits__header">Čistota a ekologie</h3>
           <p class="benefits__subheader">Uklízíme stavební odpad a k ekologii přistupujeme šetrně.</p>
         </li>
         <li class="benefits__item">
-          <img src="./images/benefits/installation.png" alt="" class="benefits__image">
+          <img src="<%=require('./images/benefits/installation.png')%>" alt="" class="benefits__image">
           <h3 class="benefits__header">3 v 1</h3>
           <p class="benefits__subheader">Máme licenci na elektroinstalační práce, děláme sítě a zapojujeme techniku.</p>
         </li>
       </ul>
     </section>
     <section class="guarantee">
-      <img src="./images/guarantee/furniture.JPG" alt="" class="guarantee__image">
+      <img src="<%=require('./images/guarantee/furniture.jpg')%>" alt="" class="guarantee__image">
       <div class="guarantee__text-container">
         <h2 class="guarantee__header">Plná záruka na námi smontované kuchyně!</h2>
         <ul class="guarantee__list">
@@ -139,7 +139,7 @@
           <h3 class="options__item-header">Přípravné práce</h3>
           <p class="option__item-text">Důležité je si dopředu naplánovat optimální počet zásuvek, umístění přívodu vody a
             vyústění kanalizace. Pro tyto práce máme nezbytné licence podle platných vyhlášek a poskytujeme na ně záruku.</p>
-          <img src="./images/options/stage-1.png" alt="" class="option__image">
+          <img src="<%=require('./images/options/stage-1.jpg')%>" alt="" class="option__image">
           <button class="button button_style_default option__button" data-stage="1">Zobrazit výpočet</button>
           <p class="option__information option__information_type_warning">Máme nezbytné licence pro provádění elektroinstalačních
             prací!</p>
@@ -148,14 +148,14 @@
           <h3 class="options__item-header">Montáž kuchyně (nábytku)</h3>
           <p class="option__item-text">Sem patří smontování a usazení nábytkové části kuchyňské linky. Nepatří sem zapojení
             sanitární techniky a elektrických spotřebičů. Tato varianta nezahrnuje přípravné práce.</p>
-          <img src="./images/options/stage-2a.png" alt="" class="option__image">
+          <img src="<%=require('./images/options/stage-2a.jpg')%>" alt="" class="option__image">
           <button class="button button_style_default option__button" data-stage="2a">Zobrazit výpočet</button>
         </li>
         <li class="options__item">
           <h3 class="options__item-header">Komplexní montáž a zapojení kuchyně</h3>
           <p class="option__item-text">Tato varianta zahrnuje montáž kuchyňské linky „na klíč", tj. včetně zapojení sanitární
             techniky a elektrických spotřebičů. Nezahrnuje přípravné práce.</p>
-          <img src="./images/options/stage-2b.png" alt="" class="option__image">
+          <img src="<%=require('./images/options/stage-2b.jpg')%>" alt="" class="option__image">
           <button class="button button_style_default option__button" data-stage="2b">Zobrazit výpočet</button>
           <p class="option__information option__information_type_attention">Ušetřete tím, že si u nás objednáte komplexní služby
             zahrnující přípravné práce.</p>
@@ -182,8 +182,8 @@
             <p class="example__price-value">6 100 Kč</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/ikea-logo.png" alt="" class="example__logo">
-          <img src="./images/example/ikea.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/ikea-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/ikea.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -199,8 +199,8 @@
             <p class="example__price-value">6 250 Kč</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/obi-logo.png" alt="" class="example__logo">
-          <img src="./images/example/obi.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/obi-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/obi.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -216,8 +216,8 @@
             <p class="example__price-value">8 200 Kč</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/mobelix-logo.png" alt="" class="example__logo">
-          <img src="./images/example/mobelix.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/mobelix-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/mobelix.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -233,8 +233,8 @@
             <p class="example__price-value">8 000 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/siko-logo.png" alt="" class="example__logo">
-          <img src="./images/example/siko.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/siko-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/siko.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -250,8 +250,8 @@
             <p class="example__price-value">8 600 Kč</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/okay-logo.png" alt="" class="example__logo">
-          <img src="./images/example/okay.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/okay-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/okay.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -267,8 +267,8 @@
             <p class="example__price-value">9 350 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/sykora-logo.png" alt="" class="example__logo">
-          <img src="./images/example/sykora.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/sykora-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/sykora.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -284,8 +284,8 @@
             <p class="example__price-value">5 350 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/baumax-logo.png" alt="" class="example__logo">
-          <img src="./images/example/baumax.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/baumax-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/baumax.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -301,8 +301,8 @@
             <p class="example__price-value">5 350 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/bauhaus-logo.png" alt="" class="example__logo">
-          <img src="./images/example/bauhaus.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/bauhaus-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/bauhaus.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -318,8 +318,8 @@
             <p class="example__price-value">1 500 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/xxxlutz-logo.png" alt="" class="example__logo">
-          <img src="./images/example/xxxlutz.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/xxxlutz-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/xxxlutz.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -335,8 +335,8 @@
             <p class="example__price-value">4 700 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/hornbach-logo.png" alt="" class="example__logo">
-          <img src="./images/example/hornbach.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/hornbach-logo.jpg')%>" alt="" class="example__logo">
+          <img src="<%=require('./images/example/hornbach.jpg')%>" alt="" class="example__image">
         </li>
         <li class="example">
           <div class="example__price-container">
@@ -352,7 +352,7 @@
             <p class="example__price-value">5 750 Kč*</p>
           </div>
           <p class="example__production-time">*Délka práce 2-3 dny</p>
-          <img src="./images/example/kitchen.png" alt="" class="example__image">
+          <img src="<%=require('./images/example/kitchen.jpg')%>" alt="" class="example__image">
         </li>
       </ul>
       <button class="button button_style_action example__button button_type_request">Požádat o cenovou nabídku pro moji kuchyni
@@ -401,17 +401,17 @@
       <ul class="certificates__grid">
         <li class="certificates__item">
           <a href="#" class="certificates__link">
-            <img src="./images/certificates/doc-1.jpg" alt="" class="certificates__image">
+            <img src="<%=require('./images/certificates/doc-1.jpg')%>" alt="" class="certificates__image">
           </a>
         </li>
         <li class="certificates__item">
           <a href="#" class="certificates__link">
-            <img src="./images/certificates/doc-2.jpg" alt="" class="certificates__image">
+            <img src="<%=require('./images/certificates/doc-2.jpg')%>" alt="" class="certificates__image">
           </a>
         </li>
         <li class="certificates__item">
           <a href="#" class="certificates__link">
-            <img src="./images/certificates/doc-3.jpg" alt="" class="certificates__image">
+            <img src="<%=require('./images/certificates/doc-3.jpg')%>" alt="" class="certificates__image">
           </a>
         </li>
       </ul>
@@ -419,12 +419,12 @@
     <section class="our-works">
       <h2 class="our-works__header">Naše realizace</h2>
       <ul class="our-works__grid">
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/baumax.jpg" alt=""></a></li>
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/hornbach.jpg" alt=""></a></li>
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/ikea.jpg" alt=""></a></li>
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/mobelix.jpg" alt=""></a></li>
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/siko.jpg" alt=""></a></li>
-        <li class="work"><a href="#" class="work__link"><img class="work__image" src="./images/work/xxxlutz.jpg" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/baumax.jpg')%>" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/hornbach.jpg')%>" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/ikea.jpg')%>" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/mobelix.jpg')%>" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/siko.jpg')%>" alt=""></a></li>
+        <li class="work"><a href="#" class="work__link"><img class="work__image" src="<%=require('./images/work/xxxlutz.jpg')%>" alt=""></a></li>
       </ul>
     </section>
     <section class="questions">
