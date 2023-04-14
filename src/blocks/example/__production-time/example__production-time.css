@@ -1,0 +1,17 @@
+.example__production-time {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+@media screen and (max-width: 450px) {
+  .example__production-time {
+    left: 10px;
+    bottom: 5px;
+  }
+}

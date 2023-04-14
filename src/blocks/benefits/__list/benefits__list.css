@@ -1,0 +1,12 @@
+.benefits__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .benefits__list {
+    flex-wrap: wrap;
+  }
+}

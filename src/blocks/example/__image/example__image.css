@@ -1,0 +1,5 @@
+.example__image {
+  display: block;
+  width: 100%;
+  transition: transform 5s;
+}

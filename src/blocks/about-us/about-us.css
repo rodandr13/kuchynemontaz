@@ -1,0 +1,11 @@
+.about-us {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 450px) {
+  .about-us {
+      padding: 0 15px;
+  }
+}

@@ -1,0 +1,6 @@
+.background-container {
+  width: 100%;
+  background: #272727;
+  position: fixed;
+  z-index: 10;
+}

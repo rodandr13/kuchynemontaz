@@ -1,0 +1,15 @@
+.certificates__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, 1fr);
+  gap: 40px 20px;
+  padding: 0;
+  margin: 40px 0 0 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 650px) {
+  .certificates__grid {
+      grid-template-columns: 1fr;
+  }
+}

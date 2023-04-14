@@ -1,0 +1,36 @@
+.intro {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../images/intro/main-banner.jpg") no-repeat;
+  background-size: cover;
+  min-height: 775px;
+  padding: 0 30px;
+}
+
+.intro:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: 0.7;
+  transition: opacity 0.25s ease-in-out;
+  z-index: 1;
+}
+
+@media screen and (max-width: 560px) {
+  .intro {
+    min-height: 550px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .intro {
+    min-height: 450px;
+  }
+}

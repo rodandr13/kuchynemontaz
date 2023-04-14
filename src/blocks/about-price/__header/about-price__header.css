@@ -1,0 +1,19 @@
+.about-price__header {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 30px 0 0 30px;
+  max-width: 690px;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .about-price__header {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-price__header {
+      margin: 30px 0 0 15px;
+  }
+}

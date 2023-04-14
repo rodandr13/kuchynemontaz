@@ -1,0 +1,7 @@
+.lang-switcher__item {
+  display: block;
+  font-size: 18px;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 15px;
+}

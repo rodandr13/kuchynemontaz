@@ -1,0 +1,14 @@
+.about-price__paragraph {
+  margin: 30px 0 0 30px;
+  max-width: 690px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #2d2d2d;
+}
+
+@media screen and (max-width: 450px) {
+  .about-price__paragraph {
+    margin: 30px 0 0 15px;
+  }
+}
